@@ -16,7 +16,6 @@ function getImages(dados){
 
 function getHistorys(dados){
 
-    //<a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
     content = document.querySelector("#historys");
     if(dados["data"]["count"] < 0){
         //diz que não tem nenhuma historia

@@ -25,7 +25,7 @@ function getCharacterList() {
     
     const urlAPI = "http://gateway.marvel.com/v1/public/characters?limit=50&offset="+offset+"&ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash;
 
-    // sla mas funcionou
+    // pesquisei no Google
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -48,7 +48,7 @@ function showHistorys(elemento) {
     const urlAPI = "https://gateway.marvel.com:443/v1/public/characters/"+codigo+"/stories?ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash;
     console.log(urlAPI);
     
-    // sla mas funcionou
+    // pesquisei solução no Google
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
